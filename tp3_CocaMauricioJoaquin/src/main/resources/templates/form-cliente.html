@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mauricio Joaquin Coca p2</title>
+<link rel="stylesheet" href="/css/estilos.css"></link>
+</head>
+<body>
+<header id="header">
+
+<h1>Programacion Visual</h1>
+
+</header>
+
+<main class="main">
+
+<h2>Formulario de datos</h2>
+
+<form>
+
+
+
+	<label for="dni">DNI:</label>
+	<input id="dni" type="number" required placeholder ="ingrese el numero de DNI sin puntos ni guiones" name="DNI"></input><br>
+	
+	<label for="nombre">Nombre:</label>
+	<input id="nombre" type="text" required placeholder ="ingrese su nombre" name="Nombre"></input><br>
+	
+	<label for="apellido">Apellido:</label>
+	<input id="apellido" type="text" required placeholder ="ingrese su apellido" name="Apellido"></input><br>
+	
+	<label for="fecha de nacimiento">Fecha de Nacimiento: </label>
+	<input id="fecha de nacimiento" type="date" required placeholder="ingrese la fecha de su nacimiento" name="fecha de nacimiento"></input><br>
+	
+	<div class="container">
+	
+		<label for="generoM">Masculino:</label>
+		<input id="generoM" type="radio" required value="Masculino" name="genero"></input><br>
+		
+		<label for="generoF">Femenino:</label>
+		<input id="generoF" type="radio" required value="Femenino" name="genero"></input><br>
+		
+		<label for="generoX">X:</label>
+		<input id="generoX" type="radio" required value="X" name="genero"></input><br>
+		
+	</div>
+	
+	<label for="correo electronico">Correo electronico:</label>
+	<input id="correo electronico" type="email" name="correo electronico" placeholder="ingrese su email" required></input><br>
+	
+	<label for="domicilio">Domicilio:</label>
+	<input id="domicilio" type="text" required placeholder="ingrese el domicilio" name="domicilio"></input><br>
+	
+	<label for="provincia">Provincia:</label>
+	<select id="provincia" name="provincia" required>
+		<option value="Jujuy">Jujuy</option>
+		<option value="Salta" selected>Salta</option>
+		<option value="Tucuman">Tucuman</option>
+		<option value="Chaco">Chaco</option>
+		<option value="Misiones">Misiones</option>
+	</select><br>
+	
+	<label for="celular">Telefono Celular:</label>
+	<input id="celular" type="number" required placeholder="ingrese su numero de celular" name="celular"></input><br>
+	
+	<label>Categorias de Interes:</label>
+	<div class="container">
+	
+		<label for="intereses1">Turismo</label>
+		<input id="intereses1" type="checkbox" name="intereses"></input><br>
+		<label for="intereses2">Gastronomia</label>
+		<input id="intereses2" type="checkbox" name="intereses"></input><br>
+		<label for="intereses3">Historia</label>
+		<input id="intereses3" type="checkbox" name="intereses"></input><br>
+		<label for="intereses4">Hospedaje</label>
+		<input id="intereses4" type="checkbox" name="intereses"></input><br>
+		
+	</div>
+	
+	<label for="sugerencias">Sugerencias:</label>
+	<textarea id="sugerencias" placeholder="ingrese sus sugerencias" name="sugerencias" rows="8" cols="40"></textarea><br>
+	
+	<label for="password">Contraseña</label>
+	<input id="password" type="password" required placeholder="ingrese su contraseña" name="password" maxlength="10" minlength="4"></input><br>
+	<label for="password repite">repita la Contraseña</label>
+	<input id="password repite" type="password" required placeholder="ingrese su contraseña nuevamente" name="password repite" maxlength="10" minlength="4"></input><br>
+	
+	<label for="t&c">Acepta los terminos y condiciones</label>
+	<input id="t&c" type="checkbox" required name="t&c"></input><br>
+	
+	<label for="informacion relativa">Desea que se le envie informacion relacionada a sus intereses?</label>
+	<input id="informacion relativa" type="checkbox" name="informacion relativa"></input><br>
+	
+	<input type="button" value="Cancelar">
+	<input type="submit" value="Guardar">
+	
+</form>
+
+</main>
+
+
+<footer>
+
+	<h3>Informacion de contacto:</h3>
+	<p>Esta pagina fue desarrollada por el alumno Mauricio Joaquin coca si desea contactarse con el puede hacerlo mediante los siguientes enlaces y informacion  </p>
+	<p>Correo electronico: mauri13coca@gmail.com</p>
+	<a class="a" href="https://www.instagram.com/mika.c.c.o_o">Enlace a cuenta de instagram</a>
+
+</footer>
+
+
+</body>
+</html>
